@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to right, #FFB6C1,#FFC0CB);
+    /* background-color: #FFB6C1; */
+}
+#container{
+    width: 500px;
+    height: 660px;
+    margin: 0 auto;
+    /* background: linear-gradient(to left, #6CA6CD, #87CEFF); */
+    background-color: #7EC0EE	;
+    top: 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-left: 25px;
+    padding-top: 18px;  
+}
+form{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+input
+{
+    justify-content: center;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+    width: 90%;
+    padding: 11px 10px;
+    /* margin: 10px 5px;  */
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    /* background-color:  #E9D2D2; */
+    background: linear-gradient(to left, #6CA6CD, #87CEFF);
+    border-radius: 5px;
+    border-width: 1px;
+    /* border: 1px; */
+    font-size: 18px;
+}
+::placeholder{
+    color:rgb(36, 35, 35);
+}
+select{
+    width: 90%;
+    padding: 11px 10px;
+    /* margin: 10px 5px;  */
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    /* background-color:  #E9D2D2; */
+    background: linear-gradient(to left, #6CA6CD, #87CEFF);
+    border-radius: 5px;
+    /* border: white; */
+    font-size: 18px;
+    color:rgb(36, 35, 35);
+}
+button{
+    justify-content: center;
+    width: 30%;
+    padding: 11px 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    /* background-color:#FFB6C1; */
+    background: linear-gradient(to right, #FFB6C1,#FFC0CB);
+    /* background: linear-gradient(to left, #E9D2D2, #FFBBBB); */
+    border-radius: 5px;
+    /* border: white; */
+    font-size: 18px;
+    color:rgb(36, 35, 35);
+    cursor: pointer;
+    border-width: 1px;
+}
+input:hover, select:hover, button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input:focus, select:focus, button:focus{
+    outline: 0;
+}
