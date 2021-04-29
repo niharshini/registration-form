@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(to right, #FFB6C1,#FFC0CB);
-    /* background-color: #FFB6C1; */
+/*     background: linear-gradient(to right, #FFB6C1,#FFC0CB); */
+    background-color: #eca3f5;
 }
 #container{
     width: 500px;
